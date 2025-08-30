@@ -18,6 +18,13 @@ public class arraylist {
       list.add(2,200);
       System.out.println(list);
 
+    //min and max
+    System.out.println(Collections.min(list));
+    System.out.println(Collections.max(list));
+    //reversing arrayList
+    Collections.reverse(list);
+    System.out.println(list);
+
     //inserting multiple elements starting from an index     targetedlist.addAll(index,sourcelist)
      ArrayList<Integer>list1=new ArrayList<Integer>();
      list1.add(2500);
